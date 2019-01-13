@@ -1,32 +1,20 @@
-package m2.eservices.alloetudiant.pojos;
+package m2.eservices.alloetudiant.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
 import m2.eservices.alloetudiant.enumerations.Grade;
 import m2.eservices.alloetudiant.enumerations.Subject;
+import m2.eservices.alloetudiant.pojos.Slot;
 import org.bson.types.ObjectId;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.LastModifiedDate;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.Date;
 import java.util.List;
 
-@Document(collection = "requests")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Request {
-
-    @Id
-    private ObjectId id;
-
-    @CreatedDate
-    private Date createdDate;
-
-    @LastModifiedDate
-    private Date lastModifiedDate;
+public class RequestCreateDto {
 
     private ObjectId profileId;
 
@@ -49,6 +37,4 @@ public class Request {
     private float total;
 
     private List<Slot> slots;
-
-    private String icon;
 }
