@@ -1,6 +1,7 @@
 package m2.eservices.alloetudiant.pojos;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
@@ -16,13 +17,14 @@ import java.util.Date;
 import java.util.List;
 
 @Document(collection = "services")
+@Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Service {
 
     @Id
-    private ObjectId id;
+    private String id;
 
     @CreatedDate
     private Date createdDate;
@@ -30,7 +32,7 @@ public class Service {
     @LastModifiedDate
     private Date lastModifiedDate;
 
-    private ObjectId profileId;
+    private String profileId;
 
     private AnnounceType announceType;
 

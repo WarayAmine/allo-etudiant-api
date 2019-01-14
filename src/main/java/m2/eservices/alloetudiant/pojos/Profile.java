@@ -1,6 +1,7 @@
 package m2.eservices.alloetudiant.pojos;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.Gender;
@@ -13,13 +14,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Document(collection = "events")
+@Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Profile {
 
     @Id
-    private ObjectId id;
+    private String id;
 
     @CreatedDate
     private Date createdDate;
@@ -31,13 +33,13 @@ public class Profile {
 
     private String lastName;
 
-    private String username;
+    private String userName;
 
     private String password;
 
     private String email;
 
-    private int phoneNumber;
+    private String phoneNumber;
 
     private String bio;
 

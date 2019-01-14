@@ -24,12 +24,12 @@ public class ProfileServiceImpl implements ProfileService {
         Profile profile = new Profile();
         profile.setFirstName(dto.getFirstName());
         profile.setLastName(dto.getLastName());
-        profile.setUsername(dto.getUsername());
+        profile.setUserName(dto.getUserName());
         profile.setPassword(dto.getPassword());
         profile.setEmail(dto.getEmail());
         profile.setPhoneNumber(dto.getPhoneNumber());
         profile.setBio(dto.getBio());
         profile.setGender(dto.getGender());
-        return profile;
+        return profileRepository.save(profile);
     }
 }

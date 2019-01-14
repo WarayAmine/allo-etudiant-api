@@ -1,6 +1,7 @@
 package m2.eservices.alloetudiant.pojos;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
@@ -13,13 +14,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Document(collection = "events")
+@Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Event {
 
     @Id
-    private ObjectId id;
+    private String id;
 
     @CreatedDate
     private Date createdDate;
@@ -27,7 +29,7 @@ public class Event {
     @LastModifiedDate
     private Date lastModifiedDate;
 
-    private ObjectId profileId;
+    private String profileId;
 
     private AnnounceType announceType;
 

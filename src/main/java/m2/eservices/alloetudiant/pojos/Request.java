@@ -14,13 +14,14 @@ import java.util.Date;
 import java.util.List;
 
 @Document(collection = "requests")
+@Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Request {
 
     @Id
-    private ObjectId id;
+    private String id;
 
     @CreatedDate
     private Date createdDate;
@@ -28,7 +29,7 @@ public class Request {
     @LastModifiedDate
     private Date lastModifiedDate;
 
-    private ObjectId profileId;
+    private String profileId;
 
     private AnnounceType announceType;
 

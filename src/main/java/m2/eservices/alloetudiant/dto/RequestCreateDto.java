@@ -16,7 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 public class RequestCreateDto {
 
-    private ObjectId profileId;
+    private String profileId;
 
     private AnnounceType announceType;
 

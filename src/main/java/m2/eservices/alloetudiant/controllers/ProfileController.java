@@ -8,10 +8,7 @@ import m2.eservices.alloetudiant.services.ProfileService;
 import m2.eservices.alloetudiant.services.ProfileServiceImpl;
 import m2.eservices.alloetudiant.services.RequestServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -21,12 +18,12 @@ public class ProfileController {
     @Autowired
     private ProfileService profileService;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @GetMapping
     public List<Profile> getRequests(){
         return profileService.getProfiles();
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.POST)
+    @PostMapping
     public Profile createRequest(@RequestBody ProfileCreateDto dto){
         return profileService.createProfile(dto);
     }

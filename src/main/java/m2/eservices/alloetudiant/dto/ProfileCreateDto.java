@@ -14,13 +14,13 @@ public class ProfileCreateDto {
 
     private String lastName;
 
-    private String username;
+    private String userName;
 
     private String password;
 
     private String email;
 
-    private int phoneNumber;
+    private String phoneNumber;
 
     private String bio;
 
