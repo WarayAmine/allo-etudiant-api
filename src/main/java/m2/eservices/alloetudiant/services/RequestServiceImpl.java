@@ -1,12 +1,11 @@
 package m2.eservices.alloetudiant.services;
 
-import m2.eservices.alloetudiant.dto.RequestCreateDto;
+import m2.eservices.alloetudiant.dto.RequestDto;
 import m2.eservices.alloetudiant.pojos.Request;
 import m2.eservices.alloetudiant.repositories.RequestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -20,7 +19,7 @@ public class RequestServiceImpl implements RequestService{
     }
 
     @Override
-    public Request createRequest(RequestCreateDto dto) {
+    public Request createRequest(RequestDto dto) {
         Request request = new Request();
         request.setProfileId(dto.getProfileId());
         request.setAnnounceType(dto.getAnnounceType());

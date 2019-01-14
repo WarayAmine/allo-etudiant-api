@@ -8,7 +8,7 @@ import m2.eservices.alloetudiant.enumerations.Gender;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProfileCreateDto {
+public class ProfileDto {
 
     private String firstName;
 

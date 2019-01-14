@@ -1,12 +1,8 @@
 package m2.eservices.alloetudiant.controllers;
 
-import m2.eservices.alloetudiant.dto.ProfileCreateDto;
-import m2.eservices.alloetudiant.dto.RequestCreateDto;
+import m2.eservices.alloetudiant.dto.ProfileDto;
 import m2.eservices.alloetudiant.pojos.Profile;
-import m2.eservices.alloetudiant.pojos.Request;
 import m2.eservices.alloetudiant.services.ProfileService;
-import m2.eservices.alloetudiant.services.ProfileServiceImpl;
-import m2.eservices.alloetudiant.services.RequestServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,7 +20,7 @@ public class ProfileController {
     }
 
     @PostMapping
-    public Profile createRequest(@RequestBody ProfileCreateDto dto){
+    public Profile createRequest(@RequestBody ProfileDto dto){
         return profileService.createProfile(dto);
     }
 }

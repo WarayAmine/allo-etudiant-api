@@ -1,6 +1,6 @@
 package m2.eservices.alloetudiant.services;
 
-import m2.eservices.alloetudiant.dto.ProfileCreateDto;
+import m2.eservices.alloetudiant.dto.ProfileDto;
 import m2.eservices.alloetudiant.pojos.Profile;
 import m2.eservices.alloetudiant.repositories.ProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ public class ProfileServiceImpl implements ProfileService {
     }
 
     @Override
-    public Profile createProfile(ProfileCreateDto dto) {
+    public Profile createProfile(ProfileDto dto) {
         Profile profile = new Profile();
         profile.setFirstName(dto.getFirstName());
         profile.setLastName(dto.getLastName());

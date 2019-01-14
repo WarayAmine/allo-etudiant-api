@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestCreateDto {
+public class RequestDto {
 
     private String profileId;
 

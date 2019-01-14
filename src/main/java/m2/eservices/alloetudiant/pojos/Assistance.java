@@ -21,7 +21,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Service {
+public class Assistance {
 
     @Id
     private String id;
