@@ -4,7 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import m2.eservices.alloetudiant.enumerations.Gender;
+import m2.eservices.alloetudiant.enumerations.AnnounceType;
+import m2.eservices.alloetudiant.enumerations.Subject;
+import m2.eservices.alloetudiant.enumerations.WeekDay;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
@@ -12,13 +14,14 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
+import java.util.List;
 
-@Document(collection = "profiles")
+@Document(collection = "offers")
 @Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Profile {
+public class Offer {
 
     @Id
     private String id;
@@ -29,17 +32,22 @@ public class Profile {
     @LastModifiedDate
     private Date lastModifiedDate;
 
-    private String firstName;
+    private String profileId;
 
-    private String lastName;
+    private AnnounceType announceType;
 
-    private String password;
+    private String title;
 
-    private String email;
+    private String address;
 
-    private String phoneNumber;
+    private String description;
 
-    private String bio;
+    private Subject subject;
 
-    private Gender gender;
+    private float price;
+
+    private String icon;
+
+    private List<WeekDay> days;
+
 }

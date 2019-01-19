@@ -12,6 +12,7 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
+import java.util.List;
 
 @Document(collection = "events")
 @Builder
@@ -38,5 +39,9 @@ public class Event {
     private String address;
 
     private String description;
+
+    private String imgUrl;
+
+    private List<Date> dates;
 
 }

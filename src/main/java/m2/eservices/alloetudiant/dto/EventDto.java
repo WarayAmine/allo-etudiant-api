@@ -4,17 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
-import m2.eservices.alloetudiant.enumerations.Grade;
-import m2.eservices.alloetudiant.enumerations.Subject;
-import m2.eservices.alloetudiant.pojos.Slot;
-import org.bson.types.ObjectId;
 
+import java.util.Date;
 import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestDto {
+public class EventDto {
 
     private String profileId;
 
@@ -26,17 +23,6 @@ public class RequestDto {
 
     private String description;
 
-    private Subject subject;
+    private List<Date> dates;
 
-    private Grade grade;
-
-    private int hours;
-
-    private float pricePerHour;
-
-    private float total;
-
-    private List<Slot> slots;
-
-    //icon
 }

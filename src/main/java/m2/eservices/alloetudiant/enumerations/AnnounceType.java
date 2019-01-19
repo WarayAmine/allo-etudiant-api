@@ -1,7 +1,7 @@
 package m2.eservices.alloetudiant.enumerations;
 
 public enum AnnounceType {
-    SERVICE,
+    OFFER,
     REQUEST,
     EVENT
 }

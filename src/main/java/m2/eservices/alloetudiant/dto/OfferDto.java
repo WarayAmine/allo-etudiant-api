@@ -4,17 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
-import m2.eservices.alloetudiant.enumerations.Grade;
 import m2.eservices.alloetudiant.enumerations.Subject;
-import m2.eservices.alloetudiant.pojos.Slot;
-import org.bson.types.ObjectId;
+import m2.eservices.alloetudiant.enumerations.WeekDay;
 
 import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestDto {
+public class OfferDto {
 
     private String profileId;
 
@@ -28,15 +26,8 @@ public class RequestDto {
 
     private Subject subject;
 
-    private Grade grade;
+    private float price;
 
-    private int hours;
+    private List<WeekDay> days;
 
-    private float pricePerHour;
-
-    private float total;
-
-    private List<Slot> slots;
-
-    //icon
 }
