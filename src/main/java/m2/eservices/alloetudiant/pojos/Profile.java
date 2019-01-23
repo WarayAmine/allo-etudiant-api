@@ -9,9 +9,11 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
+import java.util.List;
 
 @Document(collection = "profiles")
 @Builder
@@ -35,6 +37,7 @@ public class Profile {
 
     private String password;
 
+    @Indexed(unique = true)
     private String email;
 
     private String phoneNumber;
@@ -42,4 +45,6 @@ public class Profile {
     private String bio;
 
     private Gender gender;
+
+    private List<String> roles;
 }

@@ -2,75 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/common/Urls.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/OfferRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/ProfilesWebService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/EventDto.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/OfferDto.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/ProfileDto.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Offer$OfferBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/repositories/EventRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/repositories/OfferRepository.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/EventsService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/OffersService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/ProfilesService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/RequestsService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/ProfilesApi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/ProfilesWebService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_2_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AuthenticationService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/AuthenticationServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/AssistanceController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/ProfileController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/RequestController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/AssistanceDto.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/OfferDto.java" />
+      <change beforePath="$PROJECT_DIR$/alloetudiant.iml" afterPath="$PROJECT_DIR$/alloetudiant.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestDto.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestDto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/AnnounceType.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/AnnounceType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Assistance.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/AssistanceRepository.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AssistanceService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AssistanceServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfileService.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestService.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/controllers/ProfileController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/controllers/RequestController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/ProfileCreateDto.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/RequestCreateDto.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/RequestDto.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/enumerations/AnnounceType.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/enumerations/AnnounceType.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Event$EventBuilder.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Event$EventBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Event.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Event.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/ProfileDto.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/ProfileDto.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Profile$ProfileBuilder.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Profile$ProfileBuilder.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Profile.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Profile.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Service$ServiceBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Service.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Offer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/ProfileService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/ProfileServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/RequestService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/RequestServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/repositories/ProfileRepository.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/repositories/ProfileRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/ProfilesService.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/ProfilesService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/ProfilesApi.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/ProfilesApi.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,21 +55,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OffersApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java">
+      <file leaf-file-name="ProfilesServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <folding>
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/AuthenticationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventsApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java">
+      <file leaf-file-name="AuthenticationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AuthenticationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JWTAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,22 +116,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfilesApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java">
+      <file leaf-file-name="JWTAuthorizationFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="212">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestsApi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java">
+      <file leaf-file-name="ProfilesService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="108">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,19 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileCreateDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestCreateDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ServiceRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ServiceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/AssistanceDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/AssistanceRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AssistanceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AssistanceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/RequestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/AssistanceController.java" />
@@ -197,9 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OfferController.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OfferApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/ProfilesController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/AnnounceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" />
@@ -209,6 +217,22 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfileSecurityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfileSecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/common/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java" />
       </list>
     </option>
   </component>
@@ -293,6 +317,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alloetudiant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allo-etudiant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alloetudiant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allo-etudiant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alloetudiant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allo-etudiant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+              <item name="servicesImpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alloetudiant" type="b2602c69:ProjectViewProjectNode" />
@@ -461,7 +512,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61871000" />
+    <option name="totallyTimeSpent" value="87751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="-4" width="1368" height="780" extended-state="6" />
@@ -484,7 +535,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27543035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -517,18 +568,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/TestRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webservices/RequestControll.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Data.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -552,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -573,16 +604,6 @@
         <state relative-caret-position="36">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -658,30 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -707,42 +696,6 @@
         <state relative-caret-position="54">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/ProfilesWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#726#727#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#753#754#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,9 +770,9 @@
         <state relative-caret-position="343">
           <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,11 +790,11 @@
         <state relative-caret-position="264">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,7 +804,7 @@
         <state relative-caret-position="271">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -859,15 +812,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -875,8 +836,178 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfileSecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfileSecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/security/servlet/UserDetailsServiceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/ProfilesWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/AuthenticationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="51" column="62" lean-forward="true" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
