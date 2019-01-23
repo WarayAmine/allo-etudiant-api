@@ -8,4 +8,5 @@ import java.util.List;
 public interface ProfilesService {
     List<Profile> getAllProfiles();
     Profile createProfile(ProfileDto dto);
+    Profile findByEmail(String email);
 }
