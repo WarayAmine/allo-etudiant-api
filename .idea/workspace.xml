@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="">
+<<<<<<< develop
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java" afterDir="false" />
@@ -18,6 +19,13 @@
       <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/ProfilesApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/ProfilesApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/SecurityConfig.class" />
+>>>>>>> fix for heroku
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,8 +151,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< develop
             <state relative-caret-position="271">
               <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+=======
+            <state relative-caret-position="366">
+              <caret line="51" column="64" lean-forward="false" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+              <folding />
+>>>>>>> fix for heroku
             </state>
           </provider>
         </entry>
@@ -152,8 +166,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< develop
             <state relative-caret-position="85">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+=======
+            <state relative-caret-position="276">
+              <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> fix for heroku
             </state>
           </provider>
         </entry>
@@ -161,26 +183,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< develop
             <state relative-caret-position="119">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+=======
+            <state relative-caret-position="72">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+>>>>>>> fix for heroku
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< develop
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+              <folding />
+>>>>>>> fix for heroku
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< develop
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="38" selection-start-column="38" selection-end-column="38" />
+=======
+      <file leaf-file-name="SecurityConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding />
+>>>>>>> fix for heroku
             </state>
           </provider>
         </entry>
@@ -252,6 +298,25 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" />
+<<<<<<< develop
+=======
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfileSecurityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfileSecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfilesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/common/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> fix for heroku
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" />
@@ -397,9 +462,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -418,6 +482,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -487,6 +552,7 @@
       <updated>1546722990758</updated>
       <workItem from="1546722992298" duration="24295000" />
       <workItem from="1547389399641" duration="37576000" />
+<<<<<<< develop
       <workItem from="1548258727349" duration="1381000" />
       <workItem from="1548267110061" duration="2077000" />
       <workItem from="1548343029324" duration="402000" />
@@ -495,10 +561,17 @@
       <workItem from="1548426818824" duration="835000" />
       <workItem from="1548508174872" duration="4072000" />
       <workItem from="1548594411288" duration="1538000" />
+=======
+      <workItem from="1548369637672" duration="12823000" />
+      <workItem from="1548517747213" duration="2297000" />
+      <workItem from="1548539203494" duration="2042000" />
+      <workItem from="1548543992988" duration="2200000" />
+>>>>>>> fix for heroku
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< develop
     <option name="totallyTimeSpent" value="73067000" />
   </component>
   <component name="ToolWindowManager">
@@ -537,6 +610,44 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32954547" />
+=======
+    <option name="totallyTimeSpent" value="118318000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5915493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24621212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> fix for heroku
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,6 +661,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< develop
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/TestRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/Test.java" />
@@ -563,6 +675,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webservices/profileController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/Grade.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java">
+>>>>>>> fix for heroku
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
@@ -868,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -935,9 +1041,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <element signature="e#2468#2469#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="276">
           <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -947,16 +1064,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="366">
+          <caret line="51" column="64" lean-forward="false" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="72">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
