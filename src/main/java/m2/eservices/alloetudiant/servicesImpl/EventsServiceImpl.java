@@ -27,6 +27,7 @@ public class EventsServiceImpl implements EventsService {
         event.setTitle(dto.getTitle());
         event.setDescription(dto.getDescription());
         event.setAddress(dto.getAddress());
+        event.setImgUrl(dto.getImgUrl());
         event.setDates(dto.getDates());
         return eventRepository.save(event);
     }

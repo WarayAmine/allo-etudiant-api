@@ -21,6 +21,8 @@ public class EventDto {
 
     private String address;
 
+    private String imgUrl;
+
     private String description;
 
     private List<Date> dates;
