@@ -23,8 +23,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     @Autowired
     private UserDetailsService userDetailsService;
 
-    @Autowired
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
+//    @Autowired
+//    private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
@@ -40,7 +40,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     public void configure(AuthenticationManagerBuilder authManagerBuilder) throws Exception {
 
         authManagerBuilder.userDetailsService(userDetailsService)
-                .passwordEncoder(bCryptPasswordEncoder);
+                .passwordEncoder(passwordEncoder());
 
     }
 
