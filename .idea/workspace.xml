@@ -48,9 +48,17 @@
 >>>>>>> empty
 =======
     <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/AlloetudiantApplication.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/AlloetudiantApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/AlloetudiantApplication.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/AlloetudiantApplication.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/SecurityConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" />
     </list>
 >>>>>>> password encoder
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,6 +126,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< develop
+<<<<<<< develop
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,28 +150,55 @@
                 <element signature="e#569#570#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+>>>>>>> json format date
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< develop
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
               <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+=======
+      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+              <folding />
+>>>>>>> json format date
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< develop
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+=======
+      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+              <folding />
+>>>>>>> json format date
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< develop
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,10 +211,19 @@
                 <element signature="e#691#692#0" expanded="true" />
                 <element signature="e#744#745#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding />
+>>>>>>> json format date
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
       <file pinned="false" current-in-tab="false">
@@ -204,6 +249,33 @@
             <state relative-caret-position="198">
               <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
 >>>>>>> password encoder
+=======
+      <file leaf-file-name="Slot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Offer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsWebService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+>>>>>>> json format date
               <folding />
 >>>>>>> fix for heroku
             </state>
@@ -245,6 +317,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
       <file pinned="false" current-in-tab="false">
@@ -315,6 +388,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> json format date
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -338,6 +413,7 @@
     <option name="CHANGED_PATHS">
       <list>
 <<<<<<< develop
+<<<<<<< develop
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestCreateDto.java" />
@@ -355,8 +431,9 @@
 =======
 >>>>>>> password encoder
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/AssistanceController.java" />
+=======
+>>>>>>> json format date
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Assistance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/OfferRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OfferServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OfferService.java" />
@@ -365,7 +442,11 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/OfferDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/OfferController.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/controllers/ProfileController.java" />
+<<<<<<< develop
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java" />
+>>>>>>> json format date
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/api/RequestApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webservices/RequestController.java" />
@@ -379,7 +460,11 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/ProfilesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/AnnounceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersController.java" />
+<<<<<<< develop
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" />
+>>>>>>> json format date
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/common/Urls.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" />
@@ -388,7 +473,6 @@
 <<<<<<< develop
 =======
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/ProfileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfileSecurityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/ProfileSecurityServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/ProfilesService.java" />
@@ -399,21 +483,33 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/common/SecurityConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConstants.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< develop
 >>>>>>> fix for heroku
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
 <<<<<<< develop
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/EventDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" />
 =======
+=======
+>>>>>>> json format date
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" />
 <<<<<<< develop
 >>>>>>> passwordEncoder
 =======
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/AlloetudiantApplication.java" />
+<<<<<<< develop
 >>>>>>> password encoder
+=======
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java" />
+>>>>>>> json format date
       </list>
     </option>
   </component>
@@ -448,7 +544,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -489,6 +584,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+<<<<<<< develop
               <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -498,6 +594,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> json format date
               <item name="pojos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -507,6 +605,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+<<<<<<< develop
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -543,6 +642,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alloetudiant" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> json format date
               <item name="webServicesImpl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -556,8 +657,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -664,6 +766,7 @@
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
+<<<<<<< develop
       <workItem from="1548543992988" duration="2200000" />
 >>>>>>> fix for heroku
 =======
@@ -681,10 +784,15 @@
 =======
       <workItem from="1548543992988" duration="7188000" />
 >>>>>>> password encoder
+=======
+      <workItem from="1548543992988" duration="7952000" />
+      <workItem from="1548588684845" duration="6638000" />
+>>>>>>> json format date
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
@@ -746,9 +854,12 @@
 =======
     <option name="totallyTimeSpent" value="123306000" />
 >>>>>>> password encoder
+=======
+    <option name="totallyTimeSpent" value="130708000" />
+>>>>>>> json format date
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <frame x="71" y="-4" width="1368" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,12 +876,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69327074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20970266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24621212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -797,6 +908,7 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< develop
+<<<<<<< develop
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/TestRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/Test.java" />
@@ -819,6 +931,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> json format date
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/RequestRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -900,6 +1014,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< develop
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -908,6 +1023,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java">
+>>>>>>> json format date
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
@@ -980,6 +1098,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< develop
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -988,6 +1107,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/AnnounceType.java">
+>>>>>>> json format date
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
@@ -1029,6 +1151,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< develop
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/RequestDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1104,6 +1227,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> json format date
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/dto/ProfileDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1129,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1267,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="0">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
@@ -1151,7 +1275,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/ProfilesApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="0">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
@@ -1184,28 +1308,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding>
-            <element signature="e#2468#2469#0" expanded="true" />
-            <element signature="e#2506#2507#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.3.RELEASE/spring-beans-5.1.3.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="79" column="61" lean-forward="false" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+        <state relative-caret-position="162">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,8 +1340,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="236">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="60" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1232,6 +1358,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/enumerations/WeekDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>

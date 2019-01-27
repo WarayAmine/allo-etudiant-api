@@ -17,6 +17,8 @@ public class EventsWebService implements EventsApi {
 
     @Override
     public List<Event> getAllEvents() {
+        System.out.println(
+        eventsService.getAllEvents().toString());
         return eventsService.getAllEvents();
     }
 
