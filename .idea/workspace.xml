@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="" />
+    <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,8 +101,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="162">
+              <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -442,12 +444,12 @@
       <workItem from="1548369637672" duration="12823000" />
       <workItem from="1548517747213" duration="2297000" />
       <workItem from="1548539203494" duration="2042000" />
-      <workItem from="1548543992988" duration="3617000" />
+      <workItem from="1548543992988" duration="4180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119735000" />
+    <option name="totallyTimeSpent" value="120298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
@@ -855,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="162">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
           <folding />
         </state>
       </provider>
