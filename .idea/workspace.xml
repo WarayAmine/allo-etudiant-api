@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
 <<<<<<< develop
 <<<<<<< develop
+<<<<<<< develop
     <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="">
 <<<<<<< develop
 <<<<<<< develop
@@ -41,6 +42,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
     </list>
 >>>>>>> properties
+=======
+    <list default="true" id="2ec9ae18-c87b-4e45-b89e-c82dfcfb3000" name="Default" comment="" />
+>>>>>>> empty
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -603,6 +607,7 @@
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
+<<<<<<< develop
       <workItem from="1548543992988" duration="2200000" />
 >>>>>>> fix for heroku
 =======
@@ -614,10 +619,14 @@
 =======
       <workItem from="1548543992988" duration="5944000" />
 >>>>>>> passwordEncoder
+=======
+      <workItem from="1548543992988" duration="6305000" />
+>>>>>>> empty
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
@@ -671,6 +680,9 @@
 =======
     <option name="totallyTimeSpent" value="122062000" />
 >>>>>>> passwordEncoder
+=======
+    <option name="totallyTimeSpent" value="122423000" />
+>>>>>>> empty
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
