@@ -1,5 +1,6 @@
 package m2.eservices.alloetudiant.pojos;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
 import m2.eservices.alloetudiant.enumerations.Grade;
@@ -23,9 +24,11 @@ public class Request {
     @Id
     private String id;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     @CreatedDate
     private Date createdDate;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     @LastModifiedDate
     private Date lastModifiedDate;
 
