@@ -101,8 +101,7 @@ public class RegistrationServiceImpl implements RegistrationService {
 
         profile.setEnabled(true);
         profileRepository.save(profile);
-        verificationToken.getProfile().setEnabled(true);
-        verificationTokenRepository.save(verificationToken);
+        verificationTokenRepository.delete(verificationToken);
         return "Confirmation succeded";
     }
 }
