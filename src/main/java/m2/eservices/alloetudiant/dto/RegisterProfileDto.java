@@ -5,12 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.Gender;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProfileDto {
+public class RegisterProfileDto {
 
     private String firstName;
 
@@ -21,8 +19,6 @@ public class ProfileDto {
     private String email;
 
     private String phoneNumber;
-
-    private String bio;
 
     private Gender gender;
 

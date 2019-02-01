@@ -50,4 +50,6 @@ public class Profile {
     private Gender gender;
 
     private List<String> roles;
+
+    private boolean enabled;
 }

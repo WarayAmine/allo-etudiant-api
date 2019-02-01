@@ -25,7 +25,8 @@ public class UserDetailsServiceImpl implements UserDetailsService{
         Profile profile = profilesService.findByEmail(email);
         if(profile == null)
             throw new UsernameNotFoundException("username given not found");
-
+        if(!profile.isEnabled())
+            throw new UsernameNotFoundException("email not confirmed");
         Collection<GrantedAuthority> authorities = new ArrayList<>();
         profile.getRoles().forEach(r -> {
             authorities.add(new SimpleGrantedAuthority(r));
