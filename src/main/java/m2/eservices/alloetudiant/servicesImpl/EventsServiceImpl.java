@@ -5,6 +5,10 @@ import m2.eservices.alloetudiant.pojos.Event;
 import m2.eservices.alloetudiant.repositories.EventRepository;
 import m2.eservices.alloetudiant.services.EventsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,7 +19,9 @@ public class EventsServiceImpl implements EventsService {
     EventRepository eventRepository;
 
     @Override
-    public List<Event> getAllEvents() {
+    public List<Event> getAllEvents(int page) {
+//        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "profileId","imgUrl");
+//        return eventRepository.findAll(pageable).getContent();
         return eventRepository.findAll();
     }
 

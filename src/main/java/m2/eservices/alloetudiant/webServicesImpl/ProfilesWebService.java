@@ -23,4 +23,9 @@ public class ProfilesWebService implements ProfilesApi {
     public Profile createProfile(@RequestBody ProfileDto dto){
         return profilesService.createProfile(dto);
     }
+
+    @Override
+    public String getProfileIdByEmail(String email) {
+        return profilesService.findIdByEmail(email);
+    }
 }
