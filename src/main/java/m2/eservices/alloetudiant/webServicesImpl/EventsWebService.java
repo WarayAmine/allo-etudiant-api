@@ -26,4 +26,9 @@ public class EventsWebService implements EventsApi {
     public Event createEvent(EventDto dto) {
         return eventsService.createEvent(dto);
     }
+
+    @Override
+    public Event getEventById(String id) {
+        return eventsService.findEventById(id);
+    }
 }

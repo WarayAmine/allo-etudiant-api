@@ -3,10 +3,7 @@ package m2.eservices.alloetudiant.webServices;
 import m2.eservices.alloetudiant.common.Urls;
 import m2.eservices.alloetudiant.dto.EventDto;
 import m2.eservices.alloetudiant.pojos.Event;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,5 +16,8 @@ public interface EventsApi {
 
     @RequestMapping(method = RequestMethod.POST)
     Event createEvent(@RequestBody EventDto dto);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/{id}")
+    Event getEventById(@PathVariable(value ="id") String id);
 
 }
