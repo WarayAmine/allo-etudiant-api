@@ -5,6 +5,8 @@ import m2.eservices.alloetudiant.pojos.Event;
 import m2.eservices.alloetudiant.services.EventsService;
 import m2.eservices.alloetudiant.webServices.EventsApi;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -16,10 +18,8 @@ public class EventsWebService implements EventsApi {
     EventsService eventsService;
 
     @Override
-    public List<Event> getAllEvents() {
-        System.out.println(
-        eventsService.getAllEvents().toString());
-        return eventsService.getAllEvents();
+    public List<Event> getAllEvents(@RequestParam(value = "page") int page) {
+        return eventsService.getAllEvents(page);
     }
 
     @Override

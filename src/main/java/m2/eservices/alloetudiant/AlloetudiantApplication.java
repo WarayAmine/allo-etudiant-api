@@ -11,11 +11,6 @@ import org.springframework.web.servlet.config.annotation.*;
 @EnableMongoAuditing
 public class AlloetudiantApplication {
 
-	@Bean
-	public BCryptPasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(AlloetudiantApplication.class, args);
 	}
