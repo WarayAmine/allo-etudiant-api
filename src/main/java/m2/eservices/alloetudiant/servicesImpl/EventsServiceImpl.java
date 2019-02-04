@@ -19,11 +19,18 @@ public class EventsServiceImpl implements EventsService {
     EventRepository eventRepository;
 
     @Override
-    public List<Event> getAllEvents(int page) {
+    public List<Event> getAllEvents() {
 //        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "profileId","imgUrl");
 //        return eventRepository.findAll(pageable).getContent();
         return eventRepository.findAll();
     }
+
+//    @Override
+//    public List<Event> getAllEvents(int page) {
+////        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "profileId","imgUrl");
+////        return eventRepository.findAll(pageable).getContent();
+//        return eventRepository.findAll();
+//    }
 
     @Override
     public Event createEvent(EventDto dto) {

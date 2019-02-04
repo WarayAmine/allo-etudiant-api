@@ -6,6 +6,7 @@ import m2.eservices.alloetudiant.pojos.Event;
 import java.util.List;
 
 public interface EventsService {
-    List<Event> getAllEvents(int page);
+    List<Event> getAllEvents();
+//    List<Event> getAllEvents(int page);
     Event createEvent(EventDto dto);
 }

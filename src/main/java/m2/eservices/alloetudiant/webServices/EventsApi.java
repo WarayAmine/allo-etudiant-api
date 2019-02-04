@@ -12,8 +12,11 @@ import java.util.List;
 @RequestMapping(Urls.EVENTS)
 public interface EventsApi {
 
+//    @RequestMapping(method = RequestMethod.GET)
+//    List<Event> getAllEvents(@RequestParam(value = "p") int page);
+
     @RequestMapping(method = RequestMethod.GET)
-    List<Event> getAllEvents(@RequestParam(value = "p") int page);
+    List<Event> getAllEvents();
 
     @RequestMapping(method = RequestMethod.POST)
     Event createEvent(@RequestBody EventDto dto);

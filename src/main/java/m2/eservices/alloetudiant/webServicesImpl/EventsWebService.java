@@ -18,9 +18,14 @@ public class EventsWebService implements EventsApi {
     EventsService eventsService;
 
     @Override
-    public List<Event> getAllEvents(@RequestParam(value = "page") int page) {
-        return eventsService.getAllEvents(page);
+    public List<Event> getAllEvents() {
+        return eventsService.getAllEvents();
     }
+
+//    @Override
+//    public List<Event> getAllEvents(@RequestParam(value = "page") int page) {
+//        return eventsService.getAllEvents(page);
+//    }
 
     @Override
     public Event createEvent(EventDto dto) {
