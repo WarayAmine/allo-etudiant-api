@@ -3,10 +3,7 @@ package m2.eservices.alloetudiant.webServices;
 import m2.eservices.alloetudiant.common.Urls;
 import m2.eservices.alloetudiant.dto.ProfileDto;
 import m2.eservices.alloetudiant.pojos.Profile;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,4 +16,7 @@ public interface ProfilesApi {
 
     @RequestMapping(method = RequestMethod.POST)
     Profile createProfile(@RequestBody ProfileDto dto);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/id/{email}")
+    String getProfileIdByEmail(@PathVariable(value ="email") String email);
 }

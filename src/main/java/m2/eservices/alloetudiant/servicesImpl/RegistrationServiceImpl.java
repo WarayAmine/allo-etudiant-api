@@ -78,7 +78,6 @@ public class RegistrationServiceImpl implements RegistrationService {
             verificationTokenRepository.delete(
                     verificationTokenRepository.findByProfile(profile));
             profileRepository.delete(profile);
-            System.out.println(e);
             return "Cannot send confirmation mail, please try later";
         }
 

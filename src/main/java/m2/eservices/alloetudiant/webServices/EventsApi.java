@@ -3,10 +3,8 @@ package m2.eservices.alloetudiant.webServices;
 import m2.eservices.alloetudiant.common.Urls;
 import m2.eservices.alloetudiant.dto.EventDto;
 import m2.eservices.alloetudiant.pojos.Event;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.data.domain.Page;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -15,7 +13,7 @@ import java.util.List;
 public interface EventsApi {
 
     @RequestMapping(method = RequestMethod.GET)
-    List<Event> getAllEvents();
+    List<Event> getAllEvents(@RequestParam(value = "p") int page);
 
     @RequestMapping(method = RequestMethod.POST)
     Event createEvent(@RequestBody EventDto dto);
