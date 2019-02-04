@@ -38,5 +38,5 @@ public class RequestDto {
 
     private List<Slot> slots;
 
-    //icon
+    private String icon;
 }

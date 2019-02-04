@@ -33,6 +33,7 @@ public class RequestsServiceImpl implements RequestsService {
         request.setPricePerHour(dto.getPricePerHour());
         request.setTotal(dto.getPricePerHour()*dto.getHours());
         request.setSlots(dto.getSlots());
+        request.setIcon(dto.getIcon());
         return requestRepository.save(request);
     }
 }
