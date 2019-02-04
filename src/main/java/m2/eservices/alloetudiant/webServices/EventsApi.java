@@ -21,4 +21,7 @@ public interface EventsApi {
     @RequestMapping(method = RequestMethod.POST)
     Event createEvent(@RequestBody EventDto dto);
 
+    @RequestMapping(method = RequestMethod.GET , value = "/{id}")
+    Event getEventById(@PathVariable(value ="id") String id);
+
 }

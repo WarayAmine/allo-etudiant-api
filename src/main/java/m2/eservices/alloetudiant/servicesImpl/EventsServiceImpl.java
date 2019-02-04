@@ -44,4 +44,9 @@ public class EventsServiceImpl implements EventsService {
         event.setDates(dto.getDates());
         return eventRepository.save(event);
     }
+
+    @Override
+    public Event findEventById(String id){
+        return eventRepository.findById(id).get();
+    }
 }
