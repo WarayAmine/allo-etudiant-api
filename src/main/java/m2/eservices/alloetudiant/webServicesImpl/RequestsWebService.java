@@ -24,4 +24,9 @@ public class RequestsWebService implements RequestsApi {
     public Request createRequest(@RequestBody RequestDto dto){
         return requestsService.createRequest(dto);
     }
+
+    @Override
+    public Request getRequestById(String id) {
+        return requestsService.findRequestById(id);
+    }
 }

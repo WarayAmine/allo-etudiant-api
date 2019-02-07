@@ -36,4 +36,9 @@ public class RequestsServiceImpl implements RequestsService {
         request.setIcon(dto.getIcon());
         return requestRepository.save(request);
     }
+
+    @Override
+    public Request findRequestById(String id) {
+        return requestRepository.findById(id).get();
+    }
 }

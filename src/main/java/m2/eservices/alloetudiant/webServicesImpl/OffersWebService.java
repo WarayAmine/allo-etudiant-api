@@ -23,4 +23,9 @@ public class OffersWebService implements OffersApi{
     public Offer createAssistance(@RequestBody OfferDto dto){
         return offersService.createOffer(dto);
     }
+
+    @Override
+    public Offer getOfferById(String id) {
+        return offersService.findOfferById(id);
+    }
 }

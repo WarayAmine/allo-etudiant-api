@@ -18,4 +18,7 @@ public interface RequestsApi {
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     Request createRequest(@RequestBody RequestDto dto);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/{id}")
+    Request getRequestById(@PathVariable(value ="id") String id);
 }

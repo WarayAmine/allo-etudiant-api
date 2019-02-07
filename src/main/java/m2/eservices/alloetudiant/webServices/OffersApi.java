@@ -3,10 +3,7 @@ package m2.eservices.alloetudiant.webServices;
 import m2.eservices.alloetudiant.common.Urls;
 import m2.eservices.alloetudiant.dto.OfferDto;
 import m2.eservices.alloetudiant.pojos.Offer;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,4 +16,7 @@ public interface OffersApi {
 
     @RequestMapping(method = RequestMethod.POST)
     Offer createAssistance(@RequestBody OfferDto dto);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/{id}")
+    Offer getOfferById(@PathVariable(value ="id") String id);
 }

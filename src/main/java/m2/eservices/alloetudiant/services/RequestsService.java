@@ -8,4 +8,5 @@ import java.util.List;
 public interface RequestsService {
     List<Request> getAllRequests();
     Request createRequest(RequestDto dto);
+    Request findRequestById(String id);
 }

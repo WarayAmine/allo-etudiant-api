@@ -33,4 +33,9 @@ public class OffersServiceImpl implements OffersService {
         offer.setDays(dto.getDays());
         return offerRepository.save(offer);
     }
+
+    @Override
+    public Offer findOfferById(String id) {
+        return offerRepository.findById(id).get();
+    }
 }
