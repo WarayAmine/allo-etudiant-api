@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8100f873-547a-48c2-82f1-83ffdb51a109" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloetudiant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alloetudiant.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/JWTAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/EventDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/EventDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/OfferDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/OfferDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/ProfileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/ProfileDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/RequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/dto/RequestDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Slot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/pojos/Slot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/EventsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/EventsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/OffersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/OffersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/RequestsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/RequestsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/EventsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/EventsApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/OffersApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/RequestsApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.class" afterDir="false" />
-    </list>
+    <list default="true" id="8100f873-547a-48c2-82f1-83ffdb51a109" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,16 +23,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="java" value="21" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="JAVA" value="21" />
-          <entry key="Properties" value="2" />
+          <entry key="Properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -89,11 +51,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-151">
               <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -169,7 +140,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="29" />
     <option name="y" value="-4" />
     <option name="width" value="1229" />
@@ -295,7 +266,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549551193868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549551708359" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -380,7 +351,7 @@
       <workItem from="1549316522435" duration="2298000" />
       <workItem from="1549396547578" duration="3968000" />
       <workItem from="1549407177164" duration="953000" />
-      <workItem from="1549529226576" duration="8106000" />
+      <workItem from="1549529226576" duration="8730000" />
     </task>
     <servers />
   </component>
@@ -390,7 +361,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97246000" />
+    <option name="totallyTimeSpent" value="97870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,9 +373,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32223904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32223904" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +386,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43300653" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43300653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,13 +417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/Slot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/pojos/VerificationToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -670,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -815,6 +773,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-151">
@@ -822,19 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="52" column="62" lean-forward="true" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/config/JWTAuthorizationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
