@@ -1,6 +1,7 @@
 package m2.eservices.alloetudiant.webServicesImpl;
 
 import m2.eservices.alloetudiant.dto.OfferDto;
+import m2.eservices.alloetudiant.enumerations.Subject;
 import m2.eservices.alloetudiant.pojos.Offer;
 import m2.eservices.alloetudiant.services.OffersService;
 import m2.eservices.alloetudiant.webServices.OffersApi;
@@ -27,5 +28,11 @@ public class OffersWebService implements OffersApi{
     @Override
     public Offer getOfferById(String id) {
         return offersService.findOfferById(id);
+    }
+
+    @Override
+    public List<Offer> getOffersBySubject(String subject) {
+        String str = subject.toUpperCase();
+        return offersService.getOffersBySubject(Subject.valueOf(str));
     }
 }

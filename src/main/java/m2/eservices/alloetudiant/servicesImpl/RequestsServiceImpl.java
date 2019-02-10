@@ -1,6 +1,7 @@
 package m2.eservices.alloetudiant.servicesImpl;
 
 import m2.eservices.alloetudiant.dto.RequestDto;
+import m2.eservices.alloetudiant.enumerations.Subject;
 import m2.eservices.alloetudiant.pojos.Request;
 import m2.eservices.alloetudiant.repositories.RequestRepository;
 import m2.eservices.alloetudiant.services.RequestsService;
@@ -40,5 +41,10 @@ public class RequestsServiceImpl implements RequestsService {
     @Override
     public Request findRequestById(String id) {
         return requestRepository.findById(id).get();
+    }
+
+    @Override
+    public List<Request> getRequestsBySubject(Subject subject) {
+        return  requestRepository.findRequestsBySubject(subject);
     }
 }
