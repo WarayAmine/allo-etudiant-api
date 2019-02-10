@@ -2,6 +2,7 @@ package m2.eservices.alloetudiant.webServices;
 
 import m2.eservices.alloetudiant.common.Urls;
 import m2.eservices.alloetudiant.dto.RequestDto;
+import m2.eservices.alloetudiant.enumerations.Subject;
 import m2.eservices.alloetudiant.pojos.Request;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -21,4 +22,7 @@ public interface RequestsApi {
 
     @RequestMapping(method = RequestMethod.GET , value = "/{id}")
     Request getRequestById(@PathVariable(value ="id") String id);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/subjects/{subject}")
+    List<Request> getRequestsBySubject(@PathVariable(value ="subject") String subject);
 }

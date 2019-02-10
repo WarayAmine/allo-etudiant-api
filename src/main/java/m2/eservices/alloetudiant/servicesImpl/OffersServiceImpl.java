@@ -1,6 +1,7 @@
 package m2.eservices.alloetudiant.servicesImpl;
 
 import m2.eservices.alloetudiant.dto.OfferDto;
+import m2.eservices.alloetudiant.enumerations.Subject;
 import m2.eservices.alloetudiant.pojos.Offer;
 import m2.eservices.alloetudiant.repositories.OfferRepository;
 import m2.eservices.alloetudiant.services.OffersService;
@@ -37,5 +38,10 @@ public class OffersServiceImpl implements OffersService {
     @Override
     public Offer findOfferById(String id) {
         return offerRepository.findById(id).get();
+    }
+
+    @Override
+    public List<Offer> getOffersBySubject(Subject subject) {
+        return  offerRepository.findOffersBySubject(subject);
     }
 }

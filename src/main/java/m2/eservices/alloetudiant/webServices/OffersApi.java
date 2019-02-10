@@ -19,4 +19,7 @@ public interface OffersApi {
 
     @RequestMapping(method = RequestMethod.GET , value = "/{id}")
     Offer getOfferById(@PathVariable(value ="id") String id);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/subjects/{subject}")
+    List<Offer> getOffersBySubject(@PathVariable(value ="subject") String subject);
 }
