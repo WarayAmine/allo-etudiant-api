@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988839b7-36de-4fec-ae71-97aa6d950b31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/OfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/OfferRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/RequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/RequestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/RequestsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/RequestsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/EventsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/services/EventsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/EventsApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServices/EventsApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +31,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="33" />
+          <entry key="java" value="43" />
           <entry key="properties" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -39,21 +39,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="43" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="472" />
+          <entry key="java" value="818" />
           <entry key="properties" value="1" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="472" />
+          <entry key="JAVA" value="818" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="5" />
         </counts>
@@ -63,49 +63,51 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/OffersService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="84">
+              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+            <state relative-caret-position="357">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+              <folding>
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +132,11 @@
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java" />
         <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java" />
       </list>
     </option>
   </component>
@@ -259,7 +266,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549818181184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549839251080" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -304,12 +311,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549799603258</updated>
-      <workItem from="1549799611512" duration="7338000" />
+      <workItem from="1549799611512" duration="12945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7338000" />
+    <option name="totallyTimeSpent" value="12945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -332,7 +339,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3251634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5718954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,41 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -484,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/OfferRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/OffersServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -516,16 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/RequestsApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -535,15 +490,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/RequestsWebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="306">
           <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/OfferRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/OffersWebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="329">
           <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/OffersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="23" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServices/EventsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/services/EventsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/webServicesImpl/EventsWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/servicesImpl/EventsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/m2/eservices/alloetudiant/repositories/EventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

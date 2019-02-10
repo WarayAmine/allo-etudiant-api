@@ -24,4 +24,6 @@ public interface EventsApi {
     @RequestMapping(method = RequestMethod.GET , value = "/{id}")
     Event getEventById(@PathVariable(value ="id") String id);
 
+    @RequestMapping(method = RequestMethod.GET , value = "/title/{title}")
+    List<Event> getEventsByTitle(@PathVariable(value ="title") String title);
 }

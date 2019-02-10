@@ -36,4 +36,9 @@ public class EventsWebService implements EventsApi {
     public Event getEventById(String id) {
         return eventsService.findEventById(id);
     }
+
+    @Override
+    public List<Event> getEventsByTitle(String title) {
+        return eventsService.getEventsByTitle(title);
+    }
 }

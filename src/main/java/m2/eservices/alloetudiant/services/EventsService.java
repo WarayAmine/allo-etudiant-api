@@ -11,4 +11,6 @@ public interface EventsService {
 //    List<Event> getAllEvents(int page);
     Event createEvent(EventDto dto);
     Event findEventById(String id);
+    List<Event> getEventsByTitle(String title);
+
 }

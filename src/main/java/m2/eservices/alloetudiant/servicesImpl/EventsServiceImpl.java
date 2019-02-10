@@ -5,12 +5,9 @@ import m2.eservices.alloetudiant.pojos.Event;
 import m2.eservices.alloetudiant.repositories.EventRepository;
 import m2.eservices.alloetudiant.services.EventsService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -48,5 +45,17 @@ public class EventsServiceImpl implements EventsService {
     @Override
     public Event findEventById(String id){
         return eventRepository.findById(id).get();
+    }
+
+    @Override
+    public List<Event> getEventsByTitle(String title) {
+        List<Event> events = eventRepository.findAll();
+        List<Event> result = new ArrayList<>();
+        for(Event event : events) {
+            if (event.getTitle().contains(title)) {
+                result.add(event);
+            }
+        }
+        return result;
     }
 }
