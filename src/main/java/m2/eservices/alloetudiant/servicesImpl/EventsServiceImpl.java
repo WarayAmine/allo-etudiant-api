@@ -17,14 +17,14 @@ public class EventsServiceImpl implements EventsService {
 
     @Override
     public List<Event> getAllEvents() {
-//        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "profileId","imgUrl");
+//        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "askerProfileId","imgUrl");
 //        return eventRepository.findAll(pageable).getContent();
         return eventRepository.findAll();
     }
 
 //    @Override
 //    public List<Event> getAllEvents(int page) {
-////        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "profileId","imgUrl");
+////        Pageable pageable = new PageRequest(page, 2, Sort.Direction.ASC, "askerProfileId","imgUrl");
 ////        return eventRepository.findAll(pageable).getContent();
 //        return eventRepository.findAll();
 //    }

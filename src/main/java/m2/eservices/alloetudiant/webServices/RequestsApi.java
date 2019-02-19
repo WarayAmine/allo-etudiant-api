@@ -25,4 +25,6 @@ public interface RequestsApi {
 
     @RequestMapping(method = RequestMethod.GET , value = "/subjects/{subject}")
     List<Request> getRequestsBySubject(@PathVariable(value ="subject") String subject);
+
+
 }
