@@ -8,4 +8,5 @@ import java.util.List;
 
 public interface OfferRepository extends MongoRepository<Offer, String> {
     List<Offer> findOffersBySubject(Subject subject);
+    List<Offer> findByProfileId(String profileId);
 }

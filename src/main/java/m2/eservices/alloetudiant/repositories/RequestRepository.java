@@ -9,4 +9,5 @@ import java.util.List;
 
 public interface RequestRepository extends MongoRepository<Request, String> {
     List<Request>findRequestsBySubject(Subject subject);
+    List<Request> findByProfileId(String profileId);
 }

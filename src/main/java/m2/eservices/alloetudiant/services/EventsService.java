@@ -12,5 +12,6 @@ public interface EventsService {
     Event createEvent(EventDto dto);
     Event findEventById(String id);
     List<Event> getEventsByTitle(String title);
+    List<Event> getEventsByProfileId(String id);
 
 }
