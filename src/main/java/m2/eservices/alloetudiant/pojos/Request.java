@@ -5,6 +5,7 @@ import lombok.*;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
 import m2.eservices.alloetudiant.enumerations.Grade;
 import m2.eservices.alloetudiant.enumerations.Subject;
+import m2.eservices.alloetudiant.enumerations.WeekDay;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
@@ -52,7 +53,7 @@ public class Request {
 
     private float total;
 
-    private List<Slot> slots;
+    private List<WeekDay> days;
 
     private String icon;
 }
