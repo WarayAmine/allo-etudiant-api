@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
 import m2.eservices.alloetudiant.enumerations.Grade;
 import m2.eservices.alloetudiant.enumerations.Subject;
+import m2.eservices.alloetudiant.enumerations.WeekDay;
 import m2.eservices.alloetudiant.pojos.Slot;
 import org.bson.types.ObjectId;
 
@@ -36,7 +37,7 @@ public class RequestDto {
 
     private float total;
 
-    private List<Slot> slots;
+    private List<WeekDay> days;
 
     private String icon;
 }

@@ -1,9 +1,13 @@
 package m2.eservices.alloetudiant.servicesImpl;
 
 import m2.eservices.alloetudiant.dto.AnnouncementDto;
+import m2.eservices.alloetudiant.enumerations.AnnounceType;
 import m2.eservices.alloetudiant.pojos.Event;
 import m2.eservices.alloetudiant.pojos.Offer;
 import m2.eservices.alloetudiant.pojos.Request;
+import m2.eservices.alloetudiant.repositories.EventRepository;
+import m2.eservices.alloetudiant.repositories.OfferRepository;
+import m2.eservices.alloetudiant.repositories.RequestRepository;
 import m2.eservices.alloetudiant.services.AnnouncementsService;
 import m2.eservices.alloetudiant.services.EventsService;
 import m2.eservices.alloetudiant.services.OffersService;
@@ -21,12 +25,18 @@ public class AnnouncementsServiceImpl implements AnnouncementsService{
 
     @Autowired
     EventsService eventsService;
+    @Autowired
+    EventRepository eventRepository;
 
     @Autowired
     RequestsService requestsService;
+    @Autowired
+    RequestRepository requestRepository;
 
     @Autowired
     OffersService offersService;
+    @Autowired
+    OfferRepository offerRepository;
 
     @Override
     public List<AnnouncementDto> getAnnouncementsByProfileID(String id) {
@@ -37,37 +47,56 @@ public class AnnouncementsServiceImpl implements AnnouncementsService{
         for (Event e: events
              ) {
             AnnouncementDto announcement = new AnnouncementDto();
-            announcement.setId(e.getId());
-            announcement.setCreatedDate(e.getCreatedDate());
             announcement.setAnnounceType(e.getAnnounceType());
-            announcement.setDescription(e.getDescription());
-            announcement.setTitle(e.getTitle());
-            announcement.setProfileId(e.getProfileId());
+            announcement.setCreatedDate(e.getCreatedDate());
+            announcement.setEvent(e);
+            announcement.setRequest(null);
+            announcement.setOffer(null);
             announcements.add(announcement);
         }
         for (Request r: requests
                 ) {
             AnnouncementDto announcement = new AnnouncementDto();
-            announcement.setId(r.getId());
-            announcement.setCreatedDate(r.getCreatedDate());
             announcement.setAnnounceType(r.getAnnounceType());
-            announcement.setDescription(r.getDescription());
-            announcement.setTitle(r.getTitle());
-            announcement.setProfileId(r.getProfileId());
+            announcement.setCreatedDate(r.getCreatedDate());
+            announcement.setEvent(null);
+            announcement.setRequest(r);
+            announcement.setOffer(null);
             announcements.add(announcement);
         }
         for (Offer o: offers
                 ) {
             AnnouncementDto announcement = new AnnouncementDto();
-            announcement.setId(o.getId());
-            announcement.setCreatedDate(o.getCreatedDate());
             announcement.setAnnounceType(o.getAnnounceType());
-            announcement.setDescription(o.getDescription());
-            announcement.setTitle(o.getTitle());
-            announcement.setProfileId(o.getProfileId());
+            announcement.setCreatedDate(o.getCreatedDate());
+            announcement.setEvent(null);
+            announcement.setRequest(null);
+            announcement.setOffer(o);
             announcements.add(announcement);
         }
         announcements.sort(Comparator.comparing(AnnouncementDto::getCreatedDate).reversed());
         return announcements;
+    }
+
+    @Override
+    public List<AnnouncementDto> deleteAnnouncement(String id, AnnounceType type) {
+        String profileId = null;
+        switch (type){
+            case EVENT:
+                profileId = eventsService.findEventById(id).getProfileId();
+                eventRepository.deleteById(id);
+                break;
+            case OFFER:
+                profileId = offersService.findOfferById(id).getProfileId();
+                offerRepository.deleteById(id);
+                break;
+            case REQUEST:
+                profileId = requestsService.findRequestById(id).getProfileId();
+                requestRepository.deleteById(id);
+                break;
+            default:
+                break;
+        }
+        return getAnnouncementsByProfileID(profileId);
     }
 }
