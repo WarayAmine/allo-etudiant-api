@@ -12,7 +12,7 @@ import java.util.Date;
 
 public class JsonDateDeserializer extends JsonDeserializer<Date> {
 
-    private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+    private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 //    yyyy-MM-dd'T'hh:mm:ss.SSS'Z'
     @Override
     public Date deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {

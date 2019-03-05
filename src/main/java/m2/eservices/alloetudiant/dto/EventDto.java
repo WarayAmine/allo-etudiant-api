@@ -10,6 +10,9 @@ import m2.eservices.alloetudiant.common.JsonDateDeserializer;
 import m2.eservices.alloetudiant.common.JsonDateSerializer;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -30,9 +33,10 @@ public class EventDto {
 
     private String description;
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
+    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd HH:mm:ss.SSS")
 @JsonDeserialize(using= JsonDateDeserializer.class)
 @JsonSerialize(using = JsonDateSerializer.class)
     private List<Date> dates;
+
 
 }

@@ -50,7 +50,7 @@ public class Event {
     private String imgUrl;
 
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
+    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd HH:mm:ss.SSS")
     @JsonDeserialize(using= JsonDateDeserializer.class)
     @JsonSerialize(using = JsonDateSerializer.class)
     private List<Date> dates;
