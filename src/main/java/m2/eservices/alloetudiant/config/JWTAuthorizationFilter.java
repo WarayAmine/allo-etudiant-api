@@ -34,7 +34,6 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
         }
 
         String jwtToken = httpServletRequest.getHeader(SecurityConstants.HEADER_STRING);
-        System.out.println("TOKEN : "+jwtToken);
         if(jwtToken==null || !jwtToken.startsWith(SecurityConstants.TOKEN_PREFIX)){
             filterChain.doFilter(httpServletRequest,httpServletResponse);
             return;
@@ -49,7 +48,6 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
         roles.forEach(r -> {
             authorities.add(new SimpleGrantedAuthority(r.get("authority")));
         });
-        System.out.println("USERNAME : "+username);
         UsernamePasswordAuthenticationToken authenticatedUser =
                 new UsernamePasswordAuthenticationToken(username, null, authorities);
         SecurityContextHolder.getContext().setAuthentication(authenticatedUser);
