@@ -11,4 +11,5 @@ public interface OffersService {
     Offer createOffer(OfferDto dto);
     Offer findOfferById(String id);
     List<Offer> getOffersBySubject(Subject subject);
+    List<Offer> getOffersByProfileId(String id);
 }

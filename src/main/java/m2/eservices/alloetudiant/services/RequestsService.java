@@ -11,4 +11,5 @@ public interface RequestsService {
     Request createRequest(RequestDto dto);
     Request findRequestById(String id);
     List<Request> getRequestsBySubject(Subject subject);
+    List<Request> getRequestsByProfileId(String id);
 }

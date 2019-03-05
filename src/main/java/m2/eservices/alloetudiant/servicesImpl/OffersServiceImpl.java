@@ -44,4 +44,9 @@ public class OffersServiceImpl implements OffersService {
     public List<Offer> getOffersBySubject(Subject subject) {
         return  offerRepository.findOffersBySubject(subject);
     }
+
+    @Override
+    public List<Offer> getOffersByProfileId(String id) {
+        return offerRepository.findByProfileId(id);
+    }
 }

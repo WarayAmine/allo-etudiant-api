@@ -48,11 +48,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
     protected void configure(HttpSecurity http) throws Exception {
         http .csrf().disable() .authorizeRequests() .anyRequest().permitAll();
         http.csrf().disable();
-        /*http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.authorizeRequests().antMatchers("/login/**","/register/**").permitAll();
         http.addFilter(new JWTAuthenticationFilter(authenticationManager()));
         http.authorizeRequests().anyRequest().authenticated();
         http.addFilterBefore(new JWTAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
-        http.formLogin();*/
     }
 }

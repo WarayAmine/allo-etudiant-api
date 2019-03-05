@@ -47,4 +47,9 @@ public class RequestsServiceImpl implements RequestsService {
     public List<Request> getRequestsBySubject(Subject subject) {
         return  requestRepository.findRequestsBySubject(subject);
     }
+
+    @Override
+    public List<Request> getRequestsByProfileId(String id) {
+        return requestRepository.findByProfileId(id);
+    }
 }

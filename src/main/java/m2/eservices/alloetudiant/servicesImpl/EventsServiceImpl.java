@@ -13,6 +13,7 @@ import java.util.List;
 
 @Service
 public class EventsServiceImpl implements EventsService {
+
     @Autowired
     EventRepository eventRepository;
 
@@ -58,5 +59,10 @@ public class EventsServiceImpl implements EventsService {
             }
         }
         return result;
+    }
+
+    @Override
+    public List<Event> getEventsByProfileId(String id) {
+        return eventRepository.findByProfileId(id);
     }
 }
