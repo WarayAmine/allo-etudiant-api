@@ -6,14 +6,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
-import java.util.List;
 
 @Document(collection = "events")
 @Builder
@@ -45,7 +43,6 @@ public class Event {
 
     private String imgUrl;
 
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
-    private List<Date> dates;
+    private String dates;
 
 }

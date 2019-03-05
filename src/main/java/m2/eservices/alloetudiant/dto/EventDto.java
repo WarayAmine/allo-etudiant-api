@@ -5,9 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.AnnounceType;
 
-import java.util.Date;
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -25,6 +22,7 @@ public class EventDto {
 
     private String description;
 
-    private List<Date> dates;
+    private String dates;
+
 
 }
