@@ -33,10 +33,11 @@ public class EventDto {
 
     private String description;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd HH:mm:ss.SSS")
-@JsonDeserialize(using= JsonDateDeserializer.class)
-@JsonSerialize(using = JsonDateSerializer.class)
-    private List<Date> dates;
+    /*    @JsonFormat(shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd HH:mm:ss.SSS")
+        @JsonDeserialize(using= JsonDateDeserializer.class)
+        @JsonSerialize(using = JsonDateSerializer.class)*/
+//    private List<Date> dates;
+    private String dates;
 
 
 }
