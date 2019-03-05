@@ -12,7 +12,6 @@ import org.springframework.web.servlet.config.annotation.*;
 @SpringBootApplication
 @EnableMongoAuditing
 public class AlloetudiantApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(AlloetudiantApplication.class, args);
 	}
