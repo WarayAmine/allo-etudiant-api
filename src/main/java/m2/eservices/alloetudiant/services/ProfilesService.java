@@ -10,4 +10,5 @@ public interface ProfilesService {
     Profile createProfile(ProfileDto dto);
     Profile findByEmail(String email);
     String findIdByEmail(String email);
+    Profile findById(String id);
 }

@@ -19,4 +19,7 @@ public interface ProfilesApi {
 
     @RequestMapping(method = RequestMethod.GET , value = "/id/{email}")
     String getProfileIdByEmail(@PathVariable(value ="email") String email);
+
+    @RequestMapping(method = RequestMethod.GET , value = "/{id}")
+    Profile getProfileById(@PathVariable(value ="id") String id);
 }

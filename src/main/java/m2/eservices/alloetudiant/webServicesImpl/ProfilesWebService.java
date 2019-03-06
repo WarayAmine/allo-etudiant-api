@@ -28,4 +28,9 @@ public class ProfilesWebService implements ProfilesApi {
     public String getProfileIdByEmail(String email) {
         return profilesService.findIdByEmail(email);
     }
+
+    @Override
+    public Profile getProfileById(String id) {
+        return  profilesService.findById(id);
+    }
 }

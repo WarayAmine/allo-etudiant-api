@@ -53,4 +53,9 @@ public class ProfilesServiceImpl implements ProfilesService {
     public String findIdByEmail(String email) {
         return profileRepository.findByEmail(email).getId();
     }
+
+    @Override
+    public Profile findById(String id) {
+        return profileRepository.findProfileById(id);
+    }
 }
