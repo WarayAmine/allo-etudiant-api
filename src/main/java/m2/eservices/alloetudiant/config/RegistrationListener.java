@@ -56,7 +56,8 @@ public class RegistrationListener implements ApplicationListener<OnRegistrationC
 
         verificationTokenRepository.save(verificationToken);
 
-        String confirmationUrl = "http://localhost:5000/register/confirmation?token=" + token;
+//        String confirmationUrl = "http://localhost:5000/register/confirmation?token=" + token;
+        String confirmationUrl = "http://alloetudiantapi.herokuapp.com/register/confirmation?token=" + token;
 
         mailingService.sendEmail(destinationAddress, subject, text + confirmationUrl);
     }
