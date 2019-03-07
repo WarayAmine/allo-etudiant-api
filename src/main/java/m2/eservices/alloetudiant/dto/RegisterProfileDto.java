@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.Gender;
+import m2.eservices.alloetudiant.enumerations.Grade;
 
 @Data
 @AllArgsConstructor
@@ -15,6 +16,8 @@ public class RegisterProfileDto {
     private String lastName;
 
     private String password;
+
+    private Grade grade;
 
     private String email;
 

@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.Gender;
+import m2.eservices.alloetudiant.enumerations.Grade;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
@@ -46,6 +47,8 @@ public class Profile {
     private String phoneNumber;
 
     private String bio;
+
+    private Grade grade;
 
     private Gender gender;
 

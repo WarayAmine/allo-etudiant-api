@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import m2.eservices.alloetudiant.enumerations.Gender;
+import m2.eservices.alloetudiant.enumerations.Grade;
 
 import java.util.List;
 
@@ -21,6 +22,8 @@ public class ProfileDto {
     private String email;
 
     private String phoneNumber;
+
+    private Grade grade;
 
     private String bio;
 

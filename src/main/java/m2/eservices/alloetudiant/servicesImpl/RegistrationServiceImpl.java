@@ -62,6 +62,7 @@ public class RegistrationServiceImpl implements RegistrationService {
         profile.setPassword(hashedPassword);
         profile.setEmail(dto.getEmail());
         profile.setGender(dto.getGender());
+        profile.setGrade(dto.getGrade());
         profile.setPhoneNumber(dto.getPhoneNumber());
         profile.setEnabled(false);
         List<String> roles = new ArrayList<>();

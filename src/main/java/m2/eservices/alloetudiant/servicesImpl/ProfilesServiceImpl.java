@@ -35,6 +35,7 @@ public class ProfilesServiceImpl implements ProfilesService {
         profile.setEmail(dto.getEmail());
         profile.setPhoneNumber(dto.getPhoneNumber());
         profile.setBio(dto.getBio());
+        profile.setGrade(dto.getGrade());
         profile.setGender(dto.getGender());
         profile.setEnabled(false);
 //        profile.getRoles().add("USER");
