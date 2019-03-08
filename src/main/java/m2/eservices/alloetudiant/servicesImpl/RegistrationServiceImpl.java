@@ -37,18 +37,6 @@ public class RegistrationServiceImpl implements RegistrationService {
     @Autowired
     VerificationTokenRepository verificationTokenRepository;
 
-//    @Override
-//    public Profile register(ProfileDto dto) {
-//        Profile profile = new Profile();
-//        profile.setFirstName(dto.getFirstName());
-//        profile.setLastName(dto.getLastName());
-//        profile.setEmail(dto.getEmail());
-//        profile.setBio(dto.getBio());
-//        profile.setGender(dto.getGender());
-//        profile.setPhoneNumber(dto.getPhoneNumber());
-//        return profileRepository.save(profile);
-//    }
-
     @Override
     public String register(RegisterProfileDto dto) {
         if (profileRepository.findByEmail(dto.getEmail())!=null){
@@ -90,18 +78,18 @@ public class RegistrationServiceImpl implements RegistrationService {
 
         VerificationToken verificationToken = verificationTokenRepository.findByToken(token);
         if(verificationToken == null){
-            return "Token is not valid";
+            return "Le token n'est pas valide";
         }
 
         Profile profile = verificationToken.getProfile();
 
         Calendar cal = Calendar.getInstance();
         if((verificationToken.getExpiryDate().getTime() - cal.getTime().getTime()) <= 0)
-            return "Token is expired";
+            return "Le token est expiré";
 
         profile.setEnabled(true);
         profileRepository.save(profile);
         verificationTokenRepository.delete(verificationToken);
-        return "Confirmation succeded";
+        return "Confirmation réussite. Vous pouvez maintenant utiliser l'application.";
     }
 }

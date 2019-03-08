@@ -87,27 +87,31 @@ public class NotificationsServiceImpl implements NotificationsService{
 
                 if(notification.getAnswer() == NotificationAnswer.ACCEPTED){
 
-                    String askerEmailBody = "Hey, vous avez un accord avec " + asked.getLastName() + " " + asked.getFirstName() + " pour l'annonce : " + dto.getNotification().getAnnounceTitle();
-                    askerEmailBody += "\nPour que vous puissiez communiquer, voici l'adresse email de "+asked.getFirstName();
-                    askerEmailBody += "\nNous avons lui envoyé également votre adresse email pour qu'il puisse vous contacter en premier : "+asked.getEmail();
-                    askerEmailBody += "\nMerci pour votre confiance, bon apprentissage.";
-                    askerEmailBody += "\n \nalloétudiants.";
+                    String askerEmailBody = "Bonjour "+asker.getLastName()+" "+asker.getFirstName()+",\n\n";
+                    askerEmailBody += "Il semble qu'un accord est bien établi entre vous et "+asked.getLastName()+" "+asked.getFirstName()+" ";
+                    askerEmailBody += "concernant l'annonce "+dto.getNotification().getAnnounceTitle()+".\n";
+                    askerEmailBody += "Désormais votre adresse mail est envoyée à "+asked.getFirstName()+" afin de prendre contact avec vous.\n";
+                    askerEmailBody += "Adresse mail de "+asked.getFirstName()+" : "+asked.getEmail()+".\n\n";
+                    askerEmailBody += "L'équipe alloétudiants vous remercie pour votre confiance.\n\n";
+                    askerEmailBody += "alloétudiants Team.";
 
-                    String askedEmailBody = "Hey, vous avez un accord avec " + asker.getLastName() + " " + asker.getFirstName() + " pour l'annonce : " + dto.getNotification().getAnnounceTitle();
-                    askedEmailBody += "\nPour que vous puissiez communiquer, voici l'adresse email de "+asker.getFirstName();
-                    askedEmailBody += "\nNous avons lui envoyé également votre adresse email pour qu'il puisse vous contacter en premier : "+asker.getEmail();
-                    askedEmailBody += "\nMerci pour votre confiance, bon apprentissage.";
-                    askedEmailBody += "\n \nalloétudiants.";
+                    String askedEmailBody = "Bonjour "+asked.getLastName()+" "+asked.getFirstName()+",\n\n";
+                    askedEmailBody += "Il semble qu'un accord est bien établi entre vous et "+asker.getLastName()+" "+asker.getFirstName()+" ";
+                    askedEmailBody += "concernant l'annonce "+dto.getNotification().getAnnounceTitle()+".\n";
+                    askedEmailBody += "Désormais votre adresse mail est envoyée à "+asker.getFirstName()+" afin de prendre contact avec vous.\n";
+                    askedEmailBody += "Adresse mail de "+asker.getFirstName()+" : "+asker.getEmail()+".\n\n";
+                    askedEmailBody += "L'équipe alloétudiants vous remercie pour votre confiance.\n\n";
+                    askedEmailBody += "alloétudiants Team.";
 
                     mailingService.sendEmail(asker.getEmail(),"alloétudiants - "+dto.getNotification().getAnnounceTitle(),askerEmailBody);
                     mailingService.sendEmail(asked.getEmail(),"alloétudiants - "+dto.getNotification().getAnnounceTitle(),askedEmailBody);
                 } else if (notification.getAnswer() == NotificationAnswer.DECLINED){
 
-                    String askerEmailBody = "Hey, "+asked.getLastName() + " " + asked.getFirstName() + " n'a pas accepté votre demande.";
-                    askerEmailBody += "\n Il est possible qu'il a accepté une autre demande ou qu'il souhaite annuler ça demande";
-                    askerEmailBody += "\n Nous vous conseillons de publier une demande ou une proposition de service pour trouver ce que vous cherchez.";
-                    askerEmailBody += "\n Merci pour votre confiance, bon apprentissage.";
-                    askerEmailBody += "\n \n alloétudiants.";
+                    String askerEmailBody = "Bonjour "+asker.getLastName() + " " + asker.getFirstName() +",\n\n";
+                    askerEmailBody += "Nous sommes au regret de vous informer que votre invitation envoyée à "+asked.getLastName()+" "+asked.getFirstName() + " ";
+                    askerEmailBody += "concernant l'annonce "+dto.getNotification().getAnnounceTitle() + " n'a pas été acceptée.\n\n";
+                    askerEmailBody += "L'équipe alloétudiants vous remercie pour votre confiance.\n\n";
+                    askerEmailBody += "alloétudiants Team.";
 
                     mailingService.sendEmail(asker.getEmail(),"alloétudiants - " + dto.getNotification().getAnnounceTitle(), askerEmailBody);
                 } else {
